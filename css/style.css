@@ -1,0 +1,268 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root{
+    --header-height: 3rem;
+    --font-medium: 500;
+}
+
+/*===== Colores =====*/
+:root{
+    --first-color: #5361FF;
+    --white-color: #FAFAFF;
+    --dark-color: #2A3B47;
+    --text-color: #697477;
+}
+
+/*===== Fuente y tipografia =====*/
+:root{
+    --body-font: 'Montserrat', sans-serif;
+    --big-font-size: 6.25rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+}
+@media screen and (min-width: 768px){
+    :root{
+        --big-font-size: 10.5rem;
+        --h2-font-size: 2rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+    }
+}
+
+/*===== Margenes =====*/
+:root{
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+}
+
+/*===== z index =====*/
+:root{
+    --z-fixed: 100;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ===== Navbar ===== */
+body{
+    font-family: "Montserrat";
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.menus{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus a{
+    transition: color .5s ease;
+}
+
+.menus a:hover{
+    color: #5361FF;
+}
+
+.buttons{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing{
+    height: 70vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialicons{
+    height: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialicons a{
+    transition: color .5s ease;
+}
+
+.socialicons a:hover{
+    color: #5361FF;
+}
+
+.greetings{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    margin-bottom: 4px;
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+p{
+    margin-bottom: 16px;
+}
+
+.hiremebutton a{
+    transition: background-color .5s ease, color .5s ease;
+    background-color: #2A3B47;
+    display: flex;
+    height: 30px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    color: #fafaff;
+}
+
+.hiremebutton a:hover{
+    background:  #5361FF;
+    color: #2A3B47;
+}
+
+.alvinphoto{
+    height: 275px;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alvinphoto img{
+    width: 100%;
+    pointer-events: none;
+}
+
+.scrolldownbutton{
+    width: 63%;
+    margin-bottom: 10%;
+    display: flex;
+}
+
+.aboutme{
+    height: 50vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutmetitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutmecontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutmesummary{
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.accomplishments{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scrollupbutton{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.fotoaboutme{
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoaboutme img{
+    width: 100%;
+    pointer-events: none;
+}
+
+.cvdownload a{
+    transition: background-color .5s ease, color .5s ease;
+    background-color: #2A3B47;
+    display: flex;
+    height: 35px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #fafaff;
+}
+
+.cvdownload a:hover{
+    background:  #5361FF;
+    color: #2A3B47;
+}
