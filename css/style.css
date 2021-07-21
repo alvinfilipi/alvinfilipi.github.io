@@ -143,9 +143,13 @@ h1{
     margin-bottom: 4px;
 }
 
+h5{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
 h2{
     font-weight: lighter;
-    font-size: 20px;
     margin-bottom: 16px;
 }
 
@@ -270,3 +274,8 @@ p{
     background:  #5361FF;
     color: #2A3B47;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
